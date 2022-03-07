@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<form action="orden" method="get">
+    <h1>Innova-Cake</h1> <img src="./InnovaCAKE.png" alt="pastelillo" width="100">
+    <p> Dirección <br>&emsp; Av Lázaro Cárdenas 2311, Valle Oriente, 66278 Monterrey, N.L.
+    <br> Teléfono <br>&emsp; 81 8363 4485
+    <br> Horario <br>&emsp; 10:00 - 20:00</p>
+
+    
+    <br>
+    <label for="name">Nombre </label> <br>
+    <input type="text" name="name" id="name">
+    <br>
+    
+    <br>
+    <label for="fecha">Fecha del Evento </label> <br>
+    <input type="date" name="fecha" id="fecha">
+    <br>
+
+    <br>
+    <label for="email">Correo </label> <br>
+    <input type="email" name="email" id="email">
+    <br>
+
+    <br>
+    <label for="tel">Telefono / Celular</label> <br>
+    <input type="tel" name="tel" id="tel">
+    <br>
+
+    <br>
+    <label for="descripcion">Descripcion del Pastel </label> <br>
+    <input type="text" name="descripcion" id="descripcion" width="300">
+    <br>
+
+    <br>
+<p>Tamaño del Pastel <br>
+    <input type="radio" name="size" id="grande" value="grande">
+    <label for="grande">Grande (20 Personas)..............$400.00</label>
+    <br>
+    <input type="radio" name="size" id="mediano" value="mediano">
+    <label for="mediano">Mediano (14 Personas)............$320.00</label>
+    <br>
+    <input type="radio" name="size" id="chico" value="chico">
+    <label for="chico">Chico (8 Personas)...................$270.00</label>
+</p>
+
+<p> Tipo de Pan <br>
+    <input type="radio" name="bread" id="vainilla" value="Vainilla">
+    <label for="vainilla">Vainilla</label>
+    <br>
+    <input type="radio" name="bread" id="chocolate" value="Chocolate">
+    <label for="chocolate">Chocolate</label>
+</p>
+
+<h3>Toppings</h3>
+<p>Frutas <br>
+    <input type="checkbox" name="fresa" id="fresa">
+    <label for="fresa">Fresa (+35)</label><br>
+    <input type="checkbox" name="platano" id="platano">
+    <label for="platano">Platano (+15)</label><br>
+    <input type="checkbox" name="mango" id="mango">
+    <label for="mango">Mango (+40)</label><br>
+    <input type="checkbox" name="blueberry" id="blueberry">
+    <label for="blueberry">BlueBerry (+70)</label><br>
+</p>
+
+<p>Extras <br>
+    <input type="checkbox" name="cajeta" id="cajeta">
+    <label for="cajeta">Cajeta (+10)</label><br>
+    <input type="checkbox" name="chocolate" id="chocolate">
+    <label for="chocolate">Chocolate Liquido (+10)</label><br>
+    <input type="checkbox" name="mermeladafresa" id="mermeladafresa">
+    <label for="mermeladafresa">Mermelada de Fresa (+10)</label><br>
+    </p>
+    <input type="submit" value="orden">
+</form>
+
+
+</html>
